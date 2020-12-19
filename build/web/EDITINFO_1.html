@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+   
+}
+h1 {
+  color: black;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color:black; /* Fallback color */
+  background-color: rgba(0,0,0, 0); /* Black w/opacity/see-through */
+  color: black;
+  font-weight: bold;
+  border: 3px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 35%;
+  height: 600px;
+  padding: 20px;
+  text-align: center;
+}
+.button {
+  border: 3px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {background-color: white;}
+</style>
+    </head>
+    <body>
+        <div class="bg-image"> <br><h1 style=''>VEHICLE STORAGE MANAGEMENT SYSTEM.</h1></div>
+       
+<div class="bg-text">
+  <h2>CONTACT INFORMATION</h2>
+<form>
+  <label for="fname">Email:</label><br>
+  <input type="text" id="fname" name="fname" style="width: 350px;height:40px;"><br><br>
+  <label for="lname">Home Address:</label><br>
+  <input type="text" id="lname" name="lname" style="width: 350px;height:40px;"><br><br>
+  <label for="lname">Contact Number:</label><br>
+  <input type="text" id="lname" name="lname" style="width: 350px;height:40px;"><br><br>
+  <button class="button button1">EDIT INFO.</button><br><br>
+  <button class="button button1">CANCEL</button>
+</form>
+</div>
+    </body>
+</html>
